@@ -17,7 +17,7 @@ export const metadata = {
   title: "ShivKrupa",
   description: "ShivKrupa DryFruits",
   icons: {
-    icon: '/Images/Main_logo.jpeg', // or '/favicon.png', '/favicon.svg'
+    icon: '/Images/Main_logo.png',
   },
 };
 
