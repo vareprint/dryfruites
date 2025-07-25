@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "ShivKrupa",
   description: "ShivKrupa DryFruits",
+  icons: {
+    icon: '/Images/Main_logo.jpeg', // or '/favicon.png', '/favicon.svg'
+  },
 };
 
 export default function RootLayout({ children }) {
