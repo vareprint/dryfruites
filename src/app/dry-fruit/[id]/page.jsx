@@ -101,7 +101,7 @@ function DryFruitDetail() {
               <label className="mt-3">Name:</label>
               <input
                 type='text'
-                className='!w-[70%] form-control'
+                className='w-full sm:w-[70%] form-control'
                 placeholder='Enter Name'
                 value={name}
                 onChange={(e) => setName(e.target.value)}
@@ -110,7 +110,7 @@ function DryFruitDetail() {
               <label className="mt-3">Contact No.:</label>
               <input
                 type='text'
-                className='!w-[70%] form-control'
+                className='w-full sm:w-[70%] form-control'
                 placeholder='Enter Contact'
                 value={contact}
                 onChange={(e) => setContact(e.target.value)}
@@ -118,7 +118,7 @@ function DryFruitDetail() {
 
               <label className='mt-4'>Address:</label>
               <textarea
-                className='!w-[70%] form-control'
+                className='w-full sm:w-[70%] form-control'
                 placeholder='Enter Address'
                 value={address}
                 onChange={(e) => setAddress(e.target.value)}
@@ -127,7 +127,7 @@ function DryFruitDetail() {
               <label className="mt-3">Quantity (kg):</label>
               <input
                 type='text'
-                className='!w-[70%] form-control'
+                className='w-full sm:w-[70%] form-control'
                 placeholder='Enter Quantity'
                 value={quantity}
                 onChange={(e) => setQuantity(e.target.value)}
@@ -135,7 +135,7 @@ function DryFruitDetail() {
 
               <label className='mt-4'>Remark:</label>
               <textarea
-                className='!w-[70%] form-control'
+                className='w-full sm:w-[70%] form-control'
                 placeholder='Enter instructions if any'
                 value={remark}
                 onChange={(e) => setRemark(e.target.value)}
